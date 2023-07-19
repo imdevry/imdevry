@@ -14,7 +14,7 @@
 <h3> Here's some fun facts about me: </h3>
 
 - 🔭 I’m currently working on Laravel Projects
-- 🌱 I've 2+ months of professional experience worked at Maryhill College, Inc and doing debugging and adding minimal features on legacy code
+- 🌱 I've 2+ months of experience worked at Maryhill College, Inc and doing debugging and adding minimal features on legacy code
 - 👯 I’m looking to collaborate on Laravel, ReactJS and React Native projects
 - 💬 Ask me about Programming
 
