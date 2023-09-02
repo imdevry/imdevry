@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Scandia';
+    src: url('./fonts/scandia_web/Scandia-RegularItalic.eot');
+    src: local('Scandia Regular Italic'), local('Scandia-RegularItalic'),
+        url('./fonts/scandia_web/Scandia-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/scandia_web/Scandia-RegularItalic.woff2') format('woff2'),
+        url('./fonts/scandia_web/Scandia-RegularItalic.woff') format('woff'),
+        url('./fonts/scandia_web/Scandia-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Scandia';
+    src: url('./fonts/scandia_web/Scandia-Light.eot');
+    src: local('Scandia Light'), local('Scandia-Light'),
+        url('./fonts/scandia_web/Scandia-Light.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/scandia_web/Scandia-Light.woff2') format('woff2'),
+        url('./fonts/scandia_web/Scandia-Light.woff') format('woff'),
+        url('./fonts/scandia_web/Scandia-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Scandia';
+    src: url('./fonts/scandia_web/Scandia-BoldItalic.eot');
+    src: local('Scandia Bold Italic'), local('Scandia-BoldItalic'),
+        url('./fonts/scandia_web/Scandia-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/scandia_web/Scandia-BoldItalic.woff2') format('woff2'),
+        url('./fonts/scandia_web/Scandia-BoldItalic.woff') format('woff'),
+        url('./fonts/scandia_web/Scandia-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Scandia Line';
+    src: url('./fonts/scandia_web/ScandiaLine-Bold.eot');
+    src: local('Scandia Line Bold'), local('ScandiaLine-Bold'),
+        url('./fonts/scandia_web/ScandiaLine-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/scandia_web/ScandiaLine-Bold.woff2') format('woff2'),
+        url('./fonts/scandia_web/ScandiaLine-Bold.woff') format('woff'),
+        url('./fonts/scandia_web/ScandiaLine-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Scandia Line';
+    src: url('./fonts/scandia_web/ScandiaLine-Light.eot');
+    src: local('Scandia Line Light'), local('ScandiaLine-Light'),
+        url('./fonts/scandia_web/ScandiaLine-Light.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/scandia_web/ScandiaLine-Light.woff2') format('woff2'),
+        url('./fonts/scandia_web/ScandiaLine-Light.woff') format('woff'),
+        url('./fonts/scandia_web/ScandiaLine-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Scandia Stencil';
+    src: url('./fonts/scandia_web/Scandia-Stencil.eot');
+    src: local('Scandia Stencil'), local('Scandia-Stencil'),
+        url('./fonts/scandia_web/Scandia-Stencil.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/scandia_web/Scandia-Stencil.woff2') format('woff2'),
+        url('./fonts/scandia_web/Scandia-Stencil.woff') format('woff'),
+        url('./fonts/scandia_web/Scandia-Stencil.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Scandia';
+    src: url('./fonts/scandia_web/Scandia-Medium.eot');
+    src: local('Scandia Medium'), local('Scandia-Medium'),
+        url('./fonts/scandia_web/Scandia-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/scandia_web/Scandia-Medium.woff2') format('woff2'),
+        url('./fonts/scandia_web/Scandia-Medium.woff') format('woff'),
+        url('./fonts/scandia_web/Scandia-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Scandia';
+    src: url('./fonts/scandia_web/Scandia-LightItalic.eot');
+    src: local('Scandia Light Italic'), local('Scandia-LightItalic'),
+        url('./fonts/scandia_web/Scandia-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/scandia_web/Scandia-LightItalic.woff2') format('woff2'),
+        url('./fonts/scandia_web/Scandia-LightItalic.woff') format('woff'),
+        url('./fonts/scandia_web/Scandia-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Scandia Line';
+    src: url('./fonts/scandia_web/ScandiaLine-Medium.eot');
+    src: local('Scandia Line Medium'), local('ScandiaLine-Medium'),
+        url('./fonts/scandia_web/ScandiaLine-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/scandia_web/ScandiaLine-Medium.woff2') format('woff2'),
+        url('./fonts/scandia_web/ScandiaLine-Medium.woff') format('woff'),
+        url('./fonts/scandia_web/ScandiaLine-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Scandia';
+    src: url('./fonts/scandia_web/Scandia-MediumItalic.eot');
+    src: local('Scandia Medium Italic'), local('Scandia-MediumItalic'),
+        url('./fonts/scandia_web/Scandia-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/scandia_web/Scandia-MediumItalic.woff2') format('woff2'),
+        url('./fonts/scandia_web/Scandia-MediumItalic.woff') format('woff'),
+        url('./fonts/scandia_web/Scandia-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Scandia Line Stencil';
+    src: url('./fonts/scandia_web/ScandiaLine-Stencil.eot');
+    src: local('Scandia Line Stencil'), local('ScandiaLine-Stencil'),
+        url('./fonts/scandia_web/ScandiaLine-Stencil.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/scandia_web/ScandiaLine-Stencil.woff2') format('woff2'),
+        url('./fonts/scandia_web/ScandiaLine-Stencil.woff') format('woff'),
+        url('./fonts/scandia_web/ScandiaLine-Stencil.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Scandia Line';
+    src: url('./fonts/scandia_web/ScandiaLine-Regular.eot');
+    src: local('Scandia Line Regular'), local('ScandiaLine-Regular'),
+        url('./fonts/scandia_web/ScandiaLine-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/scandia_web/ScandiaLine-Regular.woff2') format('woff2'),
+        url('./fonts/scandia_web/ScandiaLine-Regular.woff') format('woff'),
+        url('./fonts/scandia_web/ScandiaLine-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Scandia';
+    src: url('./fonts/scandia_web/Scandia-Bold.eot');
+    src: local('Scandia Bold'), local('Scandia-Bold'),
+        url('./fonts/scandia_web/Scandia-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/scandia_web/Scandia-Bold.woff2') format('woff2'),
+        url('./fonts/scandia_web/Scandia-Bold.woff') format('woff'),
+        url('./fonts/scandia_web/Scandia-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Scandia';
+    src: url('./fonts/scandia_web/Scandia-Regular.eot');
+    src: local('Scandia Regular'), local('Scandia-Regular'),
+        url('./fonts/scandia_web/Scandia-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/scandia_web/Scandia-Regular.woff2') format('woff2'),
+        url('./fonts/scandia_web/Scandia-Regular.woff') format('woff'),
+        url('./fonts/scandia_web/Scandia-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
