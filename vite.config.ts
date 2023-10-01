@@ -1,6 +1,11 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import * as path from 'path'
+import path from 'path'
+import os from "os"
+
+const interfaces = os.networkInterfaces()
+const wifi = interfaces['Wi-Fi']
+const ipv4 = wifi[3].address
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -14,7 +19,7 @@ export default defineConfig({
     ],
   },
   server: {
-    host: 'localhost',
+    host: ipv4,
     port: 3000
   }
 })
