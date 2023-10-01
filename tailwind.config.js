@@ -16,7 +16,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        'sans': ['Scandia', ...defaultTheme.fontFamily.sans],
+        'sans': ['Century Gothic', ...defaultTheme.fontFamily.sans],
       },
     },
   },

@@ -1,14 +1,10 @@
 import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom"
-import "@/app/global.css"
-/**
- * Pages
- */
+import "@/app/styles/global.css"
+
 import Error from "pages/error"
 import Home from "pages/home"
 
-type Props = {}
-
-function App({ }: Props) {
+function App() {
     return (
         <BrowserRouter>
             <Routes>

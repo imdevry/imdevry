@@ -1,4 +1,4 @@
-import Layout from "@/app/components/layouts"
+import Layout from "components/layouts"
 
 type Props = {}
 
