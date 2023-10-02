@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "classnames": "^2.3.2",
     "devicon-react-svg": "^0.2.4",
     "framer-motion": "^10.16.0",
     "moment": "^2.29.4",

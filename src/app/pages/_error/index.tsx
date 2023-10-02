@@ -2,11 +2,12 @@ import Layout from "components/layouts"
 
 type Props = {}
 
-function Home({ }: Props) {
+function Error({ }: Props) {
     return (
         <Layout>
+            Error Page!
         </Layout>
     )
 }
 
-export default Home
+export default Error

@@ -19,7 +19,7 @@ function Footer({ }: Props) {
             <p className="text-gray-600 text-sm">
                 &copy; {year} Designed and built by Me
             </p>
-            <button onClick={scrollTop} className="animate-bounce border border-gray-300 p-2 mb-1 rounded-full">
+            <button onClick={scrollTop} className="animate-bounce border border-gray-300 p-1 mb-1 rounded-full">
                 <BsArrowUp className="text-gray-800" />
             </button>
         </footer>

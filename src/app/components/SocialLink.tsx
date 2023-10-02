@@ -7,7 +7,7 @@ type Props = {
 
 function SocialLink({ href, network }: Props) {
     return (
-        <SocialIcon href={href} network={network} style={{ height: 35, width: 35 }} target="_blank" />
+        <SocialIcon title={network} href={href} network={network} style={{ height: 35, width: 35 }} target="_blank" />
     )
 }
 
