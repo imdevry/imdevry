@@ -10,11 +10,11 @@ function Header({ }: Props) {
         const { isActive } = props
 
         return classNames(
-            "text-sm tracking-wider relative w-full flex gap-x-3 items-center select-none",
-            "before:content-[''] before:rounded-full before:h-[1.5px] before:bg-gray-200 before:transition-all duration-2000 ease-in-out",
+            "font-medium text-sm tracking-wider relative w-full flex gap-x-3 items-center select-none",
+            "before:content-[''] before:rounded-full before:h-[1.5px] before:bg-gray-300 before:transition-all delay-1000 duration-2000 ease-in-out",
             {
                 ["before:w-16 text-blue-800"]: isActive,
-                ["before:w-8 hover:before:w-20"]: !isActive,
+                ["before:w-8 hover:before:w-16"]: !isActive,
             }
         )
     }
@@ -22,16 +22,16 @@ function Header({ }: Props) {
     return (
         <>
             <div>
-                <h1 className="text-4xl font-bold tracking-tighest">
+                <h1 className="text-3xl pt-3 font-semibold">
                     Rayan Reynaldo
                 </h1>
 
-                <h2 className="mt-1 text-sm tracking-wider font-medium">
-                    Intern at WebMaker Philipines
+                <h2 className="mt-1 font-semibold">
+                    Intern at RGRR WebMaker Philipines
                 </h2>
 
-                <p className="mt-5 font-thin">
-                    I am humble and passionate in developing web applications.
+                <p className="mt-5">
+                    I am enthusiastic and resourceful in developing web applications.
                 </p>
             </div>
 
@@ -47,11 +47,11 @@ function Header({ }: Props) {
                 </NavLink>
             </nav>
 
-            <div className="flex gap-x-2 my-5">
-                <SocialLink network="github" href="https://github.com/imdevry" />
-                <SocialLink network="email" href="mailto:official@reynaldorayan.dev" />
-                <SocialLink network="facebook" href="https://www.facebook.com/reynaldorayanvega" />
-                <SocialLink network="linkedin" href="https://www.linkedin.com/in/imdevry" />
+            <div className="flex gap-x-2 mb-5 sticky top-0 z-50">
+                <SocialLink classes="hover:scale-110" network="github" href="https://github.com/imdevry" />
+                <SocialLink classes="hover:scale-110" network="email" href="mailto:official@reynaldorayan.dev" />
+                <SocialLink classes="hover:scale-110" network="facebook" href="https://www.facebook.com/reynaldorayanvega" />
+                <SocialLink classes="hover:scale-110" network="linkedin" href="https://www.linkedin.com/in/imdevry" />
             </div>
         </>
     )

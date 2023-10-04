@@ -16,7 +16,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        'sans': ['Century Gothic', ...defaultTheme.fontFamily.sans],
+        'sans': ['Poppins', ...defaultTheme.fontFamily.sans],
       },
     },
   },
