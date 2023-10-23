@@ -1,8 +1,6 @@
 import Layout from "components/layouts"
 
-type Props = {}
-
-function Experiences({ }: Props) {
+function Experiences() {
     return (
         <Layout>
             Experiences
