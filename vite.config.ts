@@ -26,7 +26,7 @@ export default defineConfig({
     ],
   },
   server: {
-    host: ipv4,
+    host: ipv4, // only for development
     port: 3000,
   },
 });
