@@ -26,13 +26,13 @@
     ],
     "paths": {
       "@/*": [
-        "./src/*"
+        "./src/app/*"
       ],
       "assets/*": [
         "./src/assets/*"
       ],
-      "store/*": [
-        "./src/app/store/*"
+      "styles/*": [
+        "./src/app/styles/*"
       ],
       "components/*": [
         "./src/app/components/*"
