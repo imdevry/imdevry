@@ -7,7 +7,7 @@ function Layout({ children }: PropsWithChildren) {
 	return (
 		<main>
 			<Header />
-			{children}
+			<main className="my-16 lg:w-7/12 mx-auto">{children}</main>
 			<Footer />
 		</main>
 	);

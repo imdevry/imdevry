@@ -5,7 +5,10 @@ import {
 	IconButton,
 } from "@material-tailwind/react";
 
+import { HiOutlineHome } from "react-icons/hi";
+
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
 	const [openNav, setOpenNav] = useState(false);
@@ -18,16 +21,16 @@ function Header() {
 	}, []);
 
 	const navList = (
-		<ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+		<ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 font-medium tracking-wide">
 			<Typography
 				as="li"
 				variant="small"
 				color="blue-gray"
 				className="p-1 font-normal"
 			>
-				<a href="#" className="flex items-center">
-					About
-				</a>
+				<Link to="/" className="flex items-center">
+					<HiOutlineHome size={18} />
+				</Link>
 			</Typography>
 			<Typography
 				as="li"
@@ -35,9 +38,9 @@ function Header() {
 				color="blue-gray"
 				className="p-1 font-normal"
 			>
-				<a href="#" className="flex items-center">
+				<Link to="/projects" className="flex items-center">
 					Projects
-				</a>
+				</Link>
 			</Typography>
 			<Typography
 				as="li"
@@ -45,9 +48,9 @@ function Header() {
 				color="blue-gray"
 				className="p-1 font-normal"
 			>
-				<a href="#" className="flex items-center">
-					Experiences
-				</a>
+				<Link to="/experience" className="flex items-center">
+					Experience
+				</Link>
 			</Typography>
 			<Typography
 				as="li"
@@ -55,19 +58,19 @@ function Header() {
 				color="blue-gray"
 				className="p-1 font-normal"
 			>
-				<a href="#" className="flex items-center">
+				<Link to="/connect" className="flex items-center">
 					Connect
-				</a>
+				</Link>
 			</Typography>
 		</ul>
 	);
 
 	return (
-		<Navbar className="sticky top-0 z-10 shadow-none h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
+		<Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4 shadow-sm">
 			<div className="flex items-center justify-between lg:justify-around text-gray-900">
 				<Typography
 					as="a"
-					href="#"
+					href="/"
 					className="mr-4 cursor-pointer py-1.5 font-medium"
 				>
 					Rayan R.
